@@ -37,7 +37,7 @@ export default function ServicesSection() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="px-4 md:px-7  mx-auto opacity-0">
+    <div ref={sectionRef} className="px-4 md:px-7 w-full  mx-auto opacity-0">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 border-b border-grey-200 pb-5">
         <div className="col-span-11 md:col-span-9">
           <h2 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight flex flex-wrap items-center gap-3">

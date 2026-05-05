@@ -58,7 +58,12 @@ export default function Hero() {
               <ellipse ref={ellipseRef} cx="960" cy="2000" rx="0" ry="0" fill="black" />
             </mask>
           </defs>
-          <rect width="100%" height="100%" fill="#111212" mask="url(#circle-reveal-mask)" />
+            <rect
+    width="100%"
+    height="100%"
+    fill="#b2f6e3"
+    mask="url(#circle-reveal-mask)"
+  />
         </svg>
       </div>
 

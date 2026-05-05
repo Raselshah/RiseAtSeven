@@ -59,7 +59,7 @@ export default function LegacySection() {
   }, []);
 
   return (
-    <div className="py-20 text-center relative overflow-hidden hidden md:block">
+    <div className="py-20 text-center relative overflow-hidden hidden md:block w-full">
       <h2 className="text-2xl mb-12">Legacy In The Making</h2>
       <div ref={triggerRef} className="relative h-[600px] w-full max-w-2xl mx-auto">
         {legacyItems.map((item, idx) => (
